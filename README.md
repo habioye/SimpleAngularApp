@@ -1,3 +1,15 @@
+# Day 1: Introduction to HTML, CSS, and Basic Angular Concepts
+## Lesson Topics:
+Introduction to HTML and CSS
+JS/TS concepts
+Angular environment setup
+Basic Angular Concepts: Components, Templates, Directives, String Interpolation, Services, Dependency Injection
+## Project (Single Dev): Simple Angular Application
+Create a simple Angular application to understand basic Angular concepts.
+Implement components, templates, directives, and services.
+Use string interpolation to display dynamic data.
+Practice dependency injection for service communication.
+
 # SimpleAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
