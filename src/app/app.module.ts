@@ -4,6 +4,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ItemlistComponent } from './itemlist/itemlist.component';
+import { ItemserviceService } from './itemservice.service';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ItemlistComponent } from './itemlist/itemlist.component';
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    ItemserviceService,
   ],
   bootstrap: [AppComponent]
 })
