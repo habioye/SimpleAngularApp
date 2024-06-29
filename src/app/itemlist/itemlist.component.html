@@ -1,9 +1,9 @@
-<p>itemlist works!</p>
-<div *ngif = "books.length > 0; else nobooks">
-    <h1>List of Books</h1>
+<!-- <p>itemlist works!</p> -->
+<div *ngIf = "items.length > 0; else nobooks">
+    {{title}}
     <ol>
         <li *ngFor = "let item of items">
-            {{}}
+            {{item}}
         </li>
         
     </ol>
