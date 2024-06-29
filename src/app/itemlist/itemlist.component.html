@@ -1,1 +1,13 @@
 <p>itemlist works!</p>
+<div *ngif = "books.length > 0; else nobooks">
+    <h1>List of Books</h1>
+    <ol>
+        <li *ngFor = "let item of items">
+            {{}}
+        </li>
+        
+    </ol>
+</div>
+<ng-template #nobooks>
+    I have no items!
+</ng-template>
