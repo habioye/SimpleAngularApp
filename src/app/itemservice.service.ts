@@ -5,5 +5,12 @@ import { Injectable } from '@angular/core';
 })
 export class ItemserviceService {
 
-  constructor() { }
+  constructor() { 
+
+  }
+
+  getItems():string[] {
+    let list = ["computer", "table", "lamp", "Air Purifier"];
+    return list;
+  }
 }
